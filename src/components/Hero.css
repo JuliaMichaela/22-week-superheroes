@@ -3,8 +3,8 @@ h2 {
 }
 
 .heroes-container {
-    width: 90%;
-    padding: 90%;
+    width: 95%;
+    padding: 3em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
