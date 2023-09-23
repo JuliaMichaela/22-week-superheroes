@@ -1,0 +1,29 @@
+h2 {
+    text-align: center;
+}
+
+.heroes-container {
+    width: 90%;
+    padding: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2em 2em;
+    background-color: black;
+}
+
+.hero {
+    background: white;
+    text-align: justify;
+    border-radius: none;
+    padding: 0.5rem 1.5rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+.hero-image {
+    width: 100%;
+    object-fit: cover;
+}
